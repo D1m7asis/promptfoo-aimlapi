@@ -1,0 +1,4 @@
+providers:
+  - aimlapi:chat:my-chat-model
+prompts:
+  - What is the capital of France?

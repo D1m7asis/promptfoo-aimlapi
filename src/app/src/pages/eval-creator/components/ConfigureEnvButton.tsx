@@ -141,6 +141,25 @@ const ConfigureEnvButton: React.FC = () => {
               />
             </AccordionDetails>
           </Accordion>
+          <Accordion>
+            <AccordionSummary>AI/ML API</AccordionSummary>
+            <AccordionDetails>
+              <TextField
+                label="AI/ML API key"
+                fullWidth
+                margin="normal"
+                value={env.AIML_API_KEY}
+                onChange={(e) => setEnv({ ...env, AIML_API_KEY: e.target.value })}
+              />
+              <TextField
+                label="AI/ML API base URL"
+                fullWidth
+                margin="normal"
+                value={env.AIML_API_BASE_URL}
+                onChange={(e) => setEnv({ ...env, AIML_API_BASE_URL: e.target.value })}
+              />
+            </AccordionDetails>
+          </Accordion>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose} color="primary">
