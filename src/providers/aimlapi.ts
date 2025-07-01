@@ -66,11 +66,7 @@ export function createAimlApiProvider(
     ...options,
     config: {
       ...(options.config || {}),
-      apiBaseUrl:
-        options.config?.env?.AIML_API_BASE_URL ||
-        options.env?.AIML_API_BASE_URL ||
-        getEnvString('AIML_API_BASE_URL') ||
-        'https://api.aimlapi.com/v1',
+      apiBaseUrl: 'https://api.aimlapi.com/v1',
       apiKeyEnvar: 'AIML_API_KEY',
     } as OpenAiCompletionOptions,
   };

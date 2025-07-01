@@ -8,11 +8,6 @@ Set your API key:
 export AIML_API_KEY=your_api_key_here
 ```
 
-If you need to target a self-hosted endpoint, also set the base URL:
-```bash
-export AIML_API_BASE_URL=https://your-hosted-api/v1
-```
-
 Run the example:
 
 ```bash

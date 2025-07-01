@@ -66,9 +66,6 @@
                             "AI21_API_KEY": {
                               "type": "string"
                             },
-                            "AIML_API_BASE_URL": {
-                              "type": "string"
-                            },
                             "AIML_API_KEY": {
                               "type": "string"
                             },

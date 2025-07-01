@@ -155,7 +155,6 @@ export type EnvVars = {
   AI21_API_KEY?: string;
 
   // AIML API
-  AIML_API_BASE_URL?: string;
   AIML_API_KEY?: string;
 
   // Anthropic

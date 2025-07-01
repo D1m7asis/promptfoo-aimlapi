@@ -41,5 +41,4 @@ curl https://api.aimlapi.com/models -H "Authorization: Bearer $AIML_API_KEY"
 | Variable            | Description                                   |
 | ------------------- | --------------------------------------------- |
 | `AIML_API_KEY`      | API key for authentication                    |
-| `AIML_API_BASE_URL` | Override the API base URL (defaults to `https://api.aimlapi.com/v1`) |
 
